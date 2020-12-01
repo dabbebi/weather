@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman&family=Noto+Sans+KR&family=Roboto+Slab:wght@300&display=swap');
+body {
+    background-image: url("./img/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+#temp {
+    font-size: 62px;
+    font-weight: bold;
+}
+
+* {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Roboto Slab', serif;
+}
+
+#d1 {
+    text-align: center;
+    color: white;
+}
+
+#ville {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 0%;
+}
+
+#icon {
+    margin-left: auto;
+    float: left;
+    width: 90px;
+    margin-right: 2%;
+    margin-left: 15%;
+}
+
+#tmp {
+    font-weight: bold;
+}
+
+#d2 {
+    margin-right: 1%;
+}
+
+#date {
+    font-size: 18px;
+}
+
+#prev1,
+#prev2 {
+    background-color: rgba(0, 0, 0, 0.548);
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+}
+
+#hum1,
+#hum2,
+#hum3,
+#hum4,
+#hum5,
+#hum6,
+#humj1,
+#humj2,
+#humj3,
+#humj4,
+#humj5 {
+    font-size: small;
+}
+
+#temp1,
+#temp2,
+#temp3,
+#temp4,
+#temp5,
+#temp6,
+#tempmax1,
+#tempmax2,
+#tempmax3,
+#tempmax4,
+#tempmax5 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.pre1,
+.pre2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.pr,
+.j {
+    text-align: center;
+    float: left;
+    background-color: rgba(10, 10, 10, 0.4);
+    border-radius: 6px;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.design {
+    margin-bottom: 0%;
+    text-align: center;
+    color: white;
+    margin-top: 100%;
+}
+
+.pr {
+    width: 15.66%;
+}
+
+.j {
+    width: 19%;
+}
