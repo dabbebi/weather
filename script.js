@@ -74,6 +74,21 @@ function weather() {
         document.getElementById('hum6').innerHTML = data.list[5].main.humidity + "%";
         document.getElementById('temp6').innerHTML = parseInt(data.list[5].main.temp) + "°";
 
+        document.getElementById('time7').innerHTML = extraireheure(data.list[6].dt_txt);
+        $('#ico7').attr('src', "https://api.openweathermap.org/img/w/" + data.list[6].weather[0].icon + ".png");
+        document.getElementById('hum7').innerHTML = data.list[6].main.humidity + "%";
+        document.getElementById('temp7').innerHTML = parseInt(data.list[6].main.temp) + "°";
+
+        document.getElementById('time8').innerHTML = extraireheure(data.list[7].dt_txt);
+        $('#ico8').attr('src', "https://api.openweathermap.org/img/w/" + data.list[7].weather[0].icon + ".png");
+        document.getElementById('hum8').innerHTML = data.list[7].main.humidity + "%";
+        document.getElementById('temp8').innerHTML = parseInt(data.list[7].main.temp) + "°";
+
+        document.getElementById('time9').innerHTML = extraireheure(data.list[8].dt_txt);
+        $('#ico9').attr('src', "https://api.openweathermap.org/img/w/" + data.list[8].weather[0].icon + ".png");
+        document.getElementById('hum9').innerHTML = data.list[8].main.humidity + "%";
+        document.getElementById('temp9').innerHTML = parseInt(data.list[8].main.temp) + "°";
+
         document.getElementById('jour1').innerHTML = "Auj.";
         $('#img1').attr('src', "https://api.openweathermap.org/img/w/" + data.list[1].weather[0].icon + ".png");
         document.getElementById('humj1').innerHTML = data.list[8].main.humidity + "%";
