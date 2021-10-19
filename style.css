@@ -6,6 +6,12 @@
     }
 }
 
+@media screen and (max-width : 330px ){
+    .platforme{
+        width: 100%;
+    }
+}
+
 .platforme{
     background-image: url("./img/background.jpg");
     background-size: cover;
