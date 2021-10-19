@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Goldman&family=Noto+Sans+KR&family=Roboto+Slab:wght@300&display=swap');
 
-@media screen and (min-width : 390px ){
+@media screen and (min-width : 330px ){
     .platforme{
         width: 330px;
     }
