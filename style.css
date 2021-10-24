@@ -1,20 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Goldman&family=Noto+Sans+KR&family=Roboto+Slab:wght@300&display=swap');
 
-@media screen and (min-width : 400px ){
+@media screen and (min-width : 600px ){
     .platforme{
         width: 330px;
     }
 }
 
-@media screen and (max-width : 400px ){
+@media screen and (max-width : 600px ){
     .platforme{
         width: 100%;
     }
 }
 
 .platforme{
-    background-image: url("./img/background.jpg");
-    background-size: cover;
+    
     background-repeat: no-repeat;
     text-align: center;
 }
