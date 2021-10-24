@@ -28,6 +28,9 @@ function max(t, n) {
 
 function weather() {
     var ville = localStorage.getItem("ville");
+    if(ville == "Tunis" || ville =="tunis"){
+        ville = "Tunis ";
+    }
     var url1 = 'https://api.openweathermap.org/data/2.5/weather?q=' + ville + '&lang=fr&appid=a549e37dc16969827edf70714266b626&units=metric';
     var url2 = 'https://api.openweathermap.org/data/2.5/forecast?q=' + ville + '&lang=fr&appid=a549e37dc16969827edf70714266b626&units=metric';
     var mois = { '1': "janvier", '2': "février", '3': "mars", '4': "avril", '5': "mai", '6': "juin", '7': "juillet", '8': "août", '9': "septembre", '10': "octobre", '11': "novembre", '12': "décembre" };
